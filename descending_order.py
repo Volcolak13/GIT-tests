@@ -17,3 +17,9 @@ while num < 0:
 if num >= 0 and num == int(num):
     newnum = descending_order(num)
     print ("New descending number is: ", newnum, "\n\n")
+
+# Clever solution
+
+# def Descending_Order(num):
+#     return int("".join(sorted(str(num), reverse=True)))
+# выделить несколько строк кода и нажать ctrl + /
